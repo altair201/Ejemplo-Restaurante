@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  
+}
+
+header{
+    height: 11%;
+    width: 100%;
+    color: yellow;
+    background-color: black;
+    font-size: 50px;
+    padding-left: 20px;
+}
+main{
+    height: 78%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 212, 212);
+}  
+.menu{
+    height:auto;
+    width: 20%;
+    background-color: gray;
+    position: relative;
+    font-size: x-large;
+    font-family: sans-serif;
+    line-height: 20px;
+    padding: 30px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.res{
+    height: 100%;
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+.res::-webkit-scrollbar {
+    width: 0;
+}
+h2{
+    color: blue;
+    font-family: sans-serif;
+}
+img{
+    height: 40%;
+    width: 30%;
+}
+.fin{
+    height: 11%;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(187, 185, 185);
+    overflow-y: scroll;
+}
+.fin::-webkit-scrollbar {
+    width: 0;
+}
+p{
+font-family: sans-serif;
+}
+.edit{
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 20px;
+}
